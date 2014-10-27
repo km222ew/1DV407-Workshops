@@ -1,0 +1,27 @@
+title Create new member
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": Add()
+
+"Controller::MemberHandler"->+"View::MemberView": GetMemberInfo()
+"View::MemberView"-->-"Controller::MemberHandler": Input
+"Controller::MemberHandler"->+"Model::MemberList": GetUniqueIdentifier()
+
+loop for every member to get highest id
+"Model::MemberList"->+"Model::Member": GetUniquiID();
+"Model::Member"-->-"Model::MemberList": uniqueID
+end loop
+
+"Model::MemberList"-->-"Controller::MemberHandler": uniqueID
+"Controller::MemberHandler"->+"Model::Member": m:=create(name, personalNumber, uniqueID)
+"Model::Member"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"->+"Model::MemberList": AddToList(e)
+"Model::MemberList"-->-"Controller::MemberHandler": true
+"Controller::MemberHandler"->+"Model::MemberList": SaveToFile()
+"Model::MemberList"->+"Model::MemberDAL": SaveRegister(memberList)
+
+"Model::MemberDAL"-->-"Model::MemberList":
+"Model::MemberList"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

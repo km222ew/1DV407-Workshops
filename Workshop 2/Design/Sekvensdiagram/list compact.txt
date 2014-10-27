@@ -1,0 +1,14 @@
+title List compact
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": ShowCompactMemberList()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": memberList
+"Controller::MemberHandler"->+"View::MemberView": ShowCompactMemberList(memberList)
+"View::MemberView"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"->+"Controller::MemberHandler": ContinueOnKeyPressed()
+
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

@@ -1,0 +1,26 @@
+title Show specific member
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": ShowSpecificMember()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": MemberList
+
+"Controller::MemberHandler"->+"View::MemberView": ShowCompactMemberList(MemberList)
+"View::MemberView"-->-"Controller::MemberHandler": 
+
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("member", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+
+"Controller::MemberHandler"->+"Model::MemberList": GetSpecificMember(index)
+"Model::MemberList"-->-"Controller::MemberHandler": member
+
+"Controller::MemberHandler"->+"View::MemberView": ShowSpecificMember(name, personalNumber, uniqueID, boatlist)
+"View::MemberView"-->-"Controller::MemberHandler": 
+
+"Controller::MemberHandler"->+"Controller::MemberHandler": ContinueOnKeyPressed()
+"Controller::MemberHandler"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

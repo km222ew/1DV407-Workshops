@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f36df2b5-8789-4618-9f8d-2199ae48730b"
+  name="BlackJack"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e59eb9da-cf20-4dbc-91b6-eef820124538"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBlackJack"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b8c67015-faf7-4009-8994-4c1f7e35dfed"
+        LastKnownName="model"
+        LastKnownLocation="Package1_1637.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4e65e3dc-c8dc-4412-a906-5c3eae2064ec"
+        LastKnownName="view"
+        LastKnownLocation="Package6_1637.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="283e2f39-04a6-4432-ac79-d574762f8f77"
+        LastKnownName="controller"
+        LastKnownLocation="Package7_1637.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e996d5eb-9971-4075-85ed-8139ebb3711b"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="85199fa2-a3db-48b7-835a-51037e165cb3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FVanilla%2FDesktop%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8e32f59d-2880-4680-af69-a7dcf97e5606"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="660463e7-3b7b-4451-8a8b-a1b0fc4854c8">
+                <propertyInstance
+                  Id="6b7c5185-1c2a-4819-9bd4-7adebaf60a9f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="229d6241-4331-4938-8909-d68785098f01">
+                <propertyInstance
+                  Id="72fe8d89-c951-439c-b0ec-27a212d840d4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7016dd5c-6cb8-4424-b3eb-60e549276599">
+                <propertyInstance
+                  Id="13405d6e-7d16-4fc9-b7b7-a3506141a3ab"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50ffc89b-297a-4388-b004-767ee7310486">
+                <propertyInstance
+                  Id="5605d83f-2c33-4f96-912a-ae8e8ce66f2b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d661ae0a-e531-44a1-85a4-b9695691b691">
+                <propertyInstance
+                  Id="60667564-eedc-46ec-9184-409e5c79b703"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="819f5913-7eee-455a-9d4f-4194a1f7eaf8"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d6329660-011b-47ee-bc4b-1f5339c03bcf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FVanilla%2FDesktop%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="844831e8-15ff-4ca9-bd41-a30d9f0ceecd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53286054-03ec-4c02-afcf-f3f51fc0aff9">
+                    <propertyInstance
+                      Id="a13fb4ac-9f93-4687-83d3-b1fe33028c9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc3c1fb5-2956-43d9-a3d5-bc5c4b16e2f3">
+                    <propertyInstance
+                      Id="1d928e9e-a8be-479b-9426-9df045f7a91e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29656ced-112a-40b3-942c-3040d1b76843">
+                    <propertyInstance
+                      Id="b149d8c1-6632-42b1-bc04-58b5dcc77d38"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b555802e-f2e9-4948-8fe5-58efd8301080">
+                    <propertyInstance
+                      Id="07021336-583c-402f-bf3c-c9c2415cddeb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e728a0d4-b8c2-450b-ba61-6023ba9d97bf">
+                    <propertyInstance
+                      Id="3b4e33ed-d658-4880-94ed-4283862b8535"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55110f99-5208-4266-9e10-dbc695c34736">
+                    <propertyInstance
+                      Id="7665a17f-a43e-4173-9beb-7da1f5dd7059"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3ebb6b45-2536-4e69-bac7-cf85b47ff988"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2dda39c7-8d0c-41ce-bba3-9770ed5d2b05"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FVanilla%2FDesktop%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8cf3fe6-abe1-4172-b1e5-fc3c21047912"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="257efe99-718d-4e97-8490-fe8eaea095eb">
+                    <propertyInstance
+                      Id="8aeacba4-896b-48e3-91e3-d620c81be98b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5876fee-9e55-4f27-a603-cd71e209c727">
+                    <propertyInstance
+                      Id="a5ecb502-190f-4b38-873c-196bdca43cf5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ca0ee29-6858-4389-84b7-74eb9dfa41d8">
+                    <propertyInstance
+                      Id="6687d46f-6d55-4ed6-8146-65ef718da48b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceee31e9-cc00-4eee-88b5-1b955310d9ad">
+                    <propertyInstance
+                      Id="19d95fb5-1487-410b-9e90-def19c3c6862"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09c1576f-974d-418c-924e-3e6b38135cd7">
+                    <propertyInstance
+                      Id="a35b75ef-e843-4573-95bc-a7b051572076"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9dde8f7-bdcf-4d89-b2ac-09c2d6f59a04">
+                    <propertyInstance
+                      Id="e9d6e55f-0a3b-4f9d-b33d-e109bd818fcd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1ce417c8-ce0e-4e1a-a430-baa9c9765421"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="b7a04cfd-fcf1-465f-951d-3b18872da5f2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FVanilla%2FDesktop%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe Namespace%3DBlackJack Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c551fdb2-fef0-4323-a090-97a85234fe0c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a2ca293c-e54e-4355-a8b6-ea1ff30559cb"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BlackJackModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

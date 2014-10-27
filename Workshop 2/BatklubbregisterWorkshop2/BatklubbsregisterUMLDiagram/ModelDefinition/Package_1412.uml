@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1d641d0e-b27a-47c1-b260-84e46e9c7edc"
+  name="BatklubbregisterWorkshop2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="17d9998a-c6dc-4b64-b6fe-5b54e88734cb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBatklubbregisterWorkshop2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a37948e1-374e-444c-a380-fade56915085"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aa7dacd5-7bc5-4b4d-960e-c34792adf545"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2 Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ba3fc361-7116-4f47-b540-b6ba8e59f1b4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb829c53-7eb1-4aad-ac94-cfea31240271">
+                <propertyInstance
+                  Id="4f2d8070-baf5-4415-b389-3b85606c4b62"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="564a38f2-9f4e-4ee1-a463-9ae30f448de6">
+                <propertyInstance
+                  Id="5ed8ada5-fb6c-44d9-b1fb-3029ade0cc82"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41bb64bd-b4fe-42e1-a3f2-e1cf7f46302c">
+                <propertyInstance
+                  Id="77f77cba-d6c3-4db7-b8e3-25ba7240eab6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1efc2c75-4442-42af-961d-d1617569e588">
+                <propertyInstance
+                  Id="e6f077c3-370f-4b58-9ec6-3b12a9ee93bd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c19b763a-1265-4100-82ba-30b9663840db">
+                <propertyInstance
+                  Id="94059a31-6101-4a94-9e06-e0e7e8430d20"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a0c11cbd-634e-4fc1-b1b3-6e70d3422639"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7b87c572-de62-45f9-8e2e-44d5e36832bb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2 Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec03f090-c9b5-488a-823f-7b269c71047a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09dc669f-92b4-4147-9e56-f5a1f728d9ab">
+                    <propertyInstance
+                      Id="c0c27164-862c-409a-a95a-3535703c2bc1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="722e326f-b22f-40c8-a9a5-436a4b366c68">
+                    <propertyInstance
+                      Id="116784f4-207c-4b06-aadc-5b3fbb3b2fbd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2842740f-9485-4465-bcd5-b2b2b55e8dd4">
+                    <propertyInstance
+                      Id="58d4eb03-9113-4d54-b5a1-0d9d0586de1e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aac5997d-c942-4087-918f-e0b4a18e2356">
+                    <propertyInstance
+                      Id="3a8b9fdb-3aa1-4a25-bacc-ab5f138c0d8c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="564e2abb-db1a-4baa-a08d-9ef17bdadb26">
+                    <propertyInstance
+                      Id="b4c1189e-c25d-490f-a581-455d2cbc752b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f521e2b7-7ad5-4d0b-84d3-70efb378e769">
+                    <propertyInstance
+                      Id="99fcccfb-ec21-461a-a102-6b2d6954161e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f50daf21-3945-4599-a073-d7772f61de22"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="35f66447-bf76-444b-a80d-824b74ed720a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2 Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b8a70e4b-c255-4362-a6d8-7d7735cc530b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="24a78aa4-0b61-4ff8-941c-449a6a3bb08e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BatklubbsregisterUMLDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3c0a200e-30e6-4d58-ae16-2f89bbd0cc00"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="724275c7-aaca-4c6e-900d-3950c3fca5c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2 Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c39cbbf5-ff67-4e24-b619-7ec4322f176c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2dfe518-d34b-4e84-b6dd-5aaafc8d92fb">
+                    <propertyInstance
+                      Id="cf93e0d8-53fe-4072-8d6c-4ae00915f201"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="327e9c09-9d80-4bb7-a6f6-2776907b8a05">
+                    <propertyInstance
+                      Id="b6aae698-1acd-427c-a8de-1659e57b3efe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06cb2433-9d1e-4e13-ba43-67ce577cc2dd">
+                    <propertyInstance
+                      Id="f6600945-bea5-4c7c-889c-8744249f940a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01b20312-d866-4f99-a368-4c154eff1454">
+                    <propertyInstance
+                      Id="fbef5c87-cee0-4d7e-8261-e6f4a637441a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7c2e9c0-5625-49b0-b317-9b17b078128f">
+                    <propertyInstance
+                      Id="87eb2db3-56f0-479a-a196-f581d43f7c17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2844efa5-7de6-4a33-9273-fbf4790cfc5b">
+                    <propertyInstance
+                      Id="6e67631d-97bc-43f9-b7a8-23c38a4cb7e1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a6e6b4e9-9549-496d-bc34-2950c3de47cd"
+        LastKnownName="Controller"
+        LastKnownLocation="Package1_1412.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bd41e7e8-49f5-4de2-ab5a-958265c652ec"
+        LastKnownName="Model"
+        LastKnownLocation="Package2_1412.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a6050ef8-da65-44a9-8d95-0fd0fba370e8"
+        LastKnownName="View"
+        LastKnownLocation="Package3_1412.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,34 @@
+title Edit boat
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": EditBoat()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": memberList
+"Controller::MemberHandler"->+"View::MemberView": ShowDetailedMemberList(memberList)
+
+loop for every member
+"View::MemberView"->"View::MemberView": ShowBoats(boats)
+end
+
+"View::MemberView"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("boat", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+"Controller::MemberHandler"->+"Model::MemberList": GetSpecificMember(index)
+"Model::MemberList"-->-"Controller::MemberHandler": member
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("boat", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+"Controller::MemberHandler"->+"View::MemberView": GetBoatInfo
+"View::MemberView"-->-"Controller::MemberHandler": (boatType, boatLength)
+"Controller::MemberHandler"->+"Model::Member": EditBoat(new Boat(boatType, boatLength))
+"Model::Member"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"->+"Model::MemberList": SaveToFile()
+"Model::MemberList"->+"Model::MemberDAL": SaveRegister(memberList)
+
+"Model::MemberDAL"-->-"Model::MemberList":
+"Model::MemberList"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

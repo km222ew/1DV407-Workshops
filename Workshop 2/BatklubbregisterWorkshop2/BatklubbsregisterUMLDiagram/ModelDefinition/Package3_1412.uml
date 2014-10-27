@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a6050ef8-da65-44a9-8d95-0fd0fba370e8"
+  name="View"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="962b90ef-7447-4769-bacf-b1d60831cb24"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBatklubbregisterWorkshop2.View"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="589cbd83-72dd-4415-aed6-ab90287fe269"
+        name="MemberView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1e674cbf-6e8b-4596-867d-c79a3ddfa537"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4d663b64-6ebf-423d-8e4e-bd673d502eb9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d8f0ddf-25ee-4ba6-8a98-ef7f8fdadfa0">
+                <propertyInstance
+                  Id="45747b8f-7220-449f-bb88-d28aa3a15c1f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8126bdeb-4bbe-49e9-a09e-f8d901e8c3d3">
+                <propertyInstance
+                  Id="cc4c7d50-c975-40ee-8acb-82970ace7245"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15a2e879-26c9-422a-bfda-cc11eb9994a1">
+                <propertyInstance
+                  Id="90380b63-6ccb-4f9d-9b22-11a590dc08be"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9b14078-8665-453d-bc0b-1ba8db24974f">
+                <propertyInstance
+                  Id="ac9c7e54-ac42-44f3-bec5-154f765679e9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56163a68-c4fa-4a1c-baca-c99240f382ab">
+                <propertyInstance
+                  Id="28f20803-c9f8-4922-8e33-e96d07cb4c2e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c707e60d-a94d-4f40-a29b-c959ab738635"
+            name="GetUserInput"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e39d57b-165b-4878-a289-4dccfc106544"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DGetUserInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="56ef9aa0-1ec3-4443-b2d5-77debfe66e22"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ab32f46-4816-4e0c-9841-c0a8d2a52476">
+                    <propertyInstance
+                      Id="87ebe17c-a35e-41b1-b893-eee02914a2b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78abc3c3-8b24-481b-a3b7-d113378d630e">
+                    <propertyInstance
+                      Id="cdb1775c-6e45-4661-9a0a-634f2d5584fe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddbc1354-5c17-4cbd-bb7d-10c46c59ef24">
+                    <propertyInstance
+                      Id="0505c934-3924-4ff5-9def-6d69791a156a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17896e70-2174-45ed-8831-2ab11fcc24a1">
+                    <propertyInstance
+                      Id="ab93cc9c-ef47-4ac7-9ddf-27dd1d038b9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91037502-5d29-4aef-b757-8317caf55c08">
+                    <propertyInstance
+                      Id="2af73826-75a5-4c6d-abee-f3dcc224b829"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fb2ee36-4e67-4af4-ad27-de6e439766df">
+                    <propertyInstance
+                      Id="ada3f0f8-f44f-4432-b909-c6303aa19bb2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="72cc0964-eb72-47ea-9401-ae46caf8087a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="BatklubbsregisterUMLDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4aab76fd-ae58-4bb9-9de9-a51793f9d2cb"
+                  name="item"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2e412025-512f-45e2-9598-059772b81959"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DGetUserInput OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ditem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BatklubbsregisterUMLDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c5a1b2cc-321f-4ae6-9318-d6f5f004023f"
+            name="ShowBoats"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c02236cf-b558-41c6-8822-9c416046f178"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowBoats OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f02840f7-af22-4c1d-8c10-e043f77ed648"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4f162b9-a4df-4981-8910-5deb1cb5ab86">
+                    <propertyInstance
+                      Id="cdb6d13a-9d0f-48a6-bc39-9526635454b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe912246-bf1e-4077-85bf-b219d9c857c2">
+                    <propertyInstance
+                      Id="b82038d2-c740-4d59-b400-52dbca0fe82c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3d0926c-f69d-46e6-808b-598e7c721d85">
+                    <propertyInstance
+                      Id="de4fd415-1fda-49fa-9164-b732ed7ad41a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55ed1e53-a2b6-45fb-b9d5-1878675c495e">
+                    <propertyInstance
+                      Id="d4d97388-16ca-4766-98a5-ba70ea6285b3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99fffebe-1548-44a0-b4b4-cf998c1401ae">
+                    <propertyInstance
+                      Id="3546dcf3-bc04-4bfd-9a72-4d4b1c9c76df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a6a231a-e7f4-4f53-97a2-dbeb36466f69">
+                    <propertyInstance
+                      Id="ae8b3f41-b67d-45b2-819f-ca082bcc4c0a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e555eb8-d4f5-4d81-87c8-542a8908d92c"
+                  name="m"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b9895734-a3ae-4488-9250-869a8e6d5093"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowBoats OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]) ParameterIdentifier%3Dm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9fac1fb2-1f0f-4a5f-812a-4f46ccd4dcfe"
+                      LastKnownName="Member"
+                      LastKnownLocation="Package2_1412.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aafefe89-6729-4b54-af66-98cf64e5598d"
+            name="ShowSpecificMember"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f462bd9f-19b6-4c5f-b8aa-dcbb4d3636d1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowSpecificMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28d2da2a-0869-4ca0-bf90-897d53d710e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f613117c-89cb-40bc-87b0-db14ea93b703">
+                    <propertyInstance
+                      Id="666d1642-6435-46cf-9c28-fd99258eeca6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34c205a0-1eaa-4923-ab51-58c4dc246f00">
+                    <propertyInstance
+                      Id="08d99138-77fc-41a0-a24c-eddd18e41a96"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6ae9130-4b77-4ba7-9be9-db46fa10af9d">
+                    <propertyInstance
+                      Id="a1a7ad7b-7f7e-42e7-a937-cea3638569a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4f00288-e238-45a8-a1bb-5af171236142">
+                    <propertyInstance
+                      Id="9473ad23-ee00-43c3-84d5-970341262efb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4934faa-ee13-4614-aa9f-543fd3e4ef98">
+                    <propertyInstance
+                      Id="e9937179-2422-46a1-9de9-7ee070b65d2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ba59e93-3d25-4fec-af9c-9b401c0b510c">
+                    <propertyInstance
+                      Id="5353d74a-16c0-44d8-b487-a8da224bdb98"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a91dea81-6000-4847-bcb2-c238be721714"
+                  name="m"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f937b33a-af08-4d3f-a465-02dddecbf22e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowSpecificMember OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]) ParameterIdentifier%3Dm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9fac1fb2-1f0f-4a5f-812a-4f46ccd4dcfe"
+                      LastKnownName="Member"
+                      LastKnownLocation="Package2_1412.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="16b3f7c5-d1d7-4f12-8f98-f72bd3335aee"
+            name="GetBoatInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7b9b4ee9-cdf2-47cd-8ff0-bcd54c2db27d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3DGetBoatInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02019eaf-7174-4d8a-a6eb-799bb248d5b7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76214fb1-d3c2-429f-bb77-f94095d964d2">
+                    <propertyInstance
+                      Id="b174d993-80f2-4b0a-883c-8cd6d3b2b374"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="017d7240-b43e-43a5-adcd-07f0fc6ac58e">
+                    <propertyInstance
+                      Id="270f9453-810b-48d8-9d6c-70264abf104f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a399554-fa59-43c6-a8a1-614b0beb150b">
+                    <propertyInstance
+                      Id="42cf467c-bb1e-4e25-9cd9-dd02a4e47843"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d01e2299-81da-4aed-8bfe-3e9b64be6927">
+                    <propertyInstance
+                      Id="0cbaec32-8096-45ae-9ea6-2272cc282a11"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1be611e-03eb-405e-829e-a9bcc9f17d3b">
+                    <propertyInstance
+                      Id="ef74efae-ab9e-408e-8b1d-838fc5f8732e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6280150-b8c3-4e1b-8504-98f16f6cd7dc">
+                    <propertyInstance
+                      Id="504fc652-7984-4820-9fb0-9e1fa790d8f2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6c9cd034-bed6-45b7-8582-a45de74f2ef4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="479b8980-70c1-460c-99ea-9200eb54299d"
+                      LastKnownName="Tuple&lt;String‎, Int32‎&gt;"
+                      LastKnownLocation="Package_1413.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0645984b-6f9e-4e70-9bf6-8fabc7763725"
+            name="GetMemberInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6b4c72f4-d8b4-4df8-b781-a356d0631e63"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3DGetMemberInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1f92e5e1-d836-418e-862a-bfe1ce731ff6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a48d816-db4d-4067-a242-807774d85824">
+                    <propertyInstance
+                      Id="44e8c2dc-7fc3-4586-a411-4eadd5573e9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5ee5ee9-1330-4e9d-80d0-9afb7426bf0b">
+                    <propertyInstance
+                      Id="3575e458-ef45-44ea-a16d-79a564006f55"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a948217-be50-4b47-91ef-dab855f2edd8">
+                    <propertyInstance
+                      Id="ff0d4161-2edc-47ae-b8e0-9879648843d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="829864a0-8be5-4d34-82f1-ea47795249da">
+                    <propertyInstance
+                      Id="57d7d100-d214-4a74-9dea-93934b783353"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a52879-5a82-473e-bff1-d93aa709eb9e">
+                    <propertyInstance
+                      Id="2641a2d0-53ab-4126-baa7-7313a8260af3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="386321da-28d2-4698-b869-8f3c3db14c96">
+                    <propertyInstance
+                      Id="667c2d04-5d2b-46e6-9f53-ad54780c13df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fce3e4a4-c60a-4394-a1d4-30a34dd8f2f1"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f1b65546-db46-4c74-8057-23c0e198137e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4dbcd5c1-7f26-43a9-903e-6fe84c43e601"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BatklubbsregisterUMLDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9cb8d113-a013-4857-9434-81774da7666a"
+            name="MemberView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9c78a19b-3927-49e4-87b2-036b2dfcd358"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0f3a481-a8e0-4d74-b6ad-37b1cf53b015"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32551221-bd1c-4b1b-93bb-0503e0df1f15">
+                    <propertyInstance
+                      Id="08f3b43f-e47d-43ed-94bf-69da6770b6d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe43133b-8517-4ab0-b929-7db291d7630e">
+                    <propertyInstance
+                      Id="9e8c0aeb-45d6-486a-a1d3-189912d0ec95"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59bdfb8c-cdb9-4a16-abdf-4109b2e44765">
+                    <propertyInstance
+                      Id="934bdfd9-9059-4049-9413-9b19a0e35d41"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="364231c3-a0ba-4e94-9261-77057fa3eea3">
+                    <propertyInstance
+                      Id="d9604cb5-c6cd-4e9a-bcfe-759f2652ebaf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c400d15-7f96-4ff4-bf7f-05d5d32b4dd1">
+                    <propertyInstance
+                      Id="4fa1adbe-dfa0-4c17-83d6-4f4162d2be46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e9c205a-3849-4b72-ab8a-0f1aabdce05c">
+                    <propertyInstance
+                      Id="15cf9ab2-698a-4e33-a3e0-6658ae3f1a3f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="16bcfde0-d1dc-446a-a70f-e0b977d788a4"
+            name="ShowCompactMemberList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4ccfb06d-0a83-4f15-95b5-04f429ffbebc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowCompactMemberList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d2d77ab5-99aa-4669-8720-a6ad19c257f0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c635cd7-949f-4309-8afb-6738e3b2464f">
+                    <propertyInstance
+                      Id="62024df7-479d-4493-920f-8a628b0aa266"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a788586d-e08a-4835-8b2e-3b24f971f7da">
+                    <propertyInstance
+                      Id="a9376431-13f1-4a4b-a858-3d6fa782c98f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d3a3bf7-4f18-4fed-9fb2-91cbda1f6995">
+                    <propertyInstance
+                      Id="7209c9e2-f417-4983-bc50-5a9668da0b6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a976f546-7ca7-4ca1-b05e-c05182718ca0">
+                    <propertyInstance
+                      Id="8a9e524b-1ded-4e23-8d10-f4dd2b5789f5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85f5a00e-b692-4c73-bec4-0e12663a1a74">
+                    <propertyInstance
+                      Id="53c163b4-4f74-44aa-9695-96aec470e39f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5a36b9b-d214-451a-8b77-484b62713782">
+                    <propertyInstance
+                      Id="5c3842f1-01d8-40c0-b6df-8d650f7f18f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="455a75d9-85cb-48e8-a1a2-ad4efe509f2a"
+                  name="m"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d857eb6a-5608-4b4f-b489-ad5071ad88b7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowCompactMemberList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]))]) ParameterIdentifier%3Dm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6338b97c-496d-44bc-81de-2a1b77bcfec1"
+                      LastKnownName="List&lt;Member‎&gt;"
+                      LastKnownLocation="Package2_1413.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3f89019f-9c5b-4c40-a3f2-6f3dc1ac4bf5"
+            name="ShowDetailedMemberList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4bc152a9-ec40-4694-bbec-54b486db7096"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowDetailedMemberList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="876002ce-6380-4661-91a6-78bce2b52d2c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="513fa75e-9898-408f-8d1e-487689550cb6">
+                    <propertyInstance
+                      Id="bf846638-4f05-43f1-b99d-904e7a2a5bb7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56699668-7184-433c-9e01-d766be069a2f">
+                    <propertyInstance
+                      Id="c8fea058-e9a5-4859-9a43-f3d2fba49a05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e77a478-920d-404d-81dd-44257f02b6f6">
+                    <propertyInstance
+                      Id="a5b68125-f206-4fa0-87bc-4a2964dfd245"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f752a87-a8db-4a1c-bacb-1722d7094132">
+                    <propertyInstance
+                      Id="6c69411a-066a-4a75-a188-837b84ff08ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f67668f-f444-4e16-93a8-65e1a03e92d6">
+                    <propertyInstance
+                      Id="d9ef56f1-eafb-46fc-9b8c-ba9528cf34b9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f3aa717-67f4-4cfa-9d7e-f589aa0d2cf1">
+                    <propertyInstance
+                      Id="63a122cb-3c54-4d35-8018-d2a0fc80a4e9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bc5801f-16af-4286-bb3b-2c1deea9875b"
+                  name="m"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fd1d53b5-db66-4bcf-bc47-dc5634f3ab2e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMemberView Member%3D(Name%3DShowDetailedMemberList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.Model Type%3DMember)]))]) ParameterIdentifier%3Dm"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6338b97c-496d-44bc-81de-2a1b77bcfec1"
+                      LastKnownName="List&lt;Member‎&gt;"
+                      LastKnownLocation="Package2_1413.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ad84af20-6f0d-4005-9508-b3664c3c99c9"
+        name="Menu"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6e95adc7-6560-47f2-ab85-199c84049117"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="09dedc95-baca-4e3f-ad2a-c527cb9088b0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc1b70e1-94be-486f-a4e8-c8b43aac3ab7">
+                <propertyInstance
+                  Id="bb3495e2-815c-41c9-8472-ffe326a94a4e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58b21955-abf4-4c16-b94f-b54a090e1070">
+                <propertyInstance
+                  Id="0bb651a6-bd32-4893-8957-c1ef91b2fdc8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7469bfe2-35f6-458c-bc2a-0d15f6217be5">
+                <propertyInstance
+                  Id="d2f283d4-4074-4b37-92cc-05f0abb89c25"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="187125f2-f6a6-4558-8e9f-626c26567ce1">
+                <propertyInstance
+                  Id="030eee9c-4147-4527-8bf0-21275102a984"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49fac304-f621-4bf0-800d-ee4474de9414">
+                <propertyInstance
+                  Id="28336f22-d52e-40ff-bbf8-f00f35fdcf86"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2ca331aa-773a-4b8c-84cf-0d6f52ef6693"
+            name="DisplayMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4ca1c752-4cb9-4bd6-a2ed-626fae14b2ed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu Member%3DDisplayMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9865f74-c913-4740-8b1b-b3050b6402da"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36a139e3-3577-43e9-bb23-5be1a70d8597">
+                    <propertyInstance
+                      Id="47416973-660c-42fa-952f-dea7f806f4f5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="967fac55-0544-452a-97ea-a1185d0dcb5f">
+                    <propertyInstance
+                      Id="7be6cbb0-26f4-42a6-bd52-b83cf54fd16c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f280a3f-2da5-4861-b8e9-436823899d93">
+                    <propertyInstance
+                      Id="e6e3b6d4-c071-4fe6-9b50-d2269303ce95"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aa863aa-1bc9-494c-babd-a3511496efc0">
+                    <propertyInstance
+                      Id="5a7a31d5-b370-414e-8726-e0b75a93b5fe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fc31390-b2d4-4d49-ba2d-49e9bbbce40e">
+                    <propertyInstance
+                      Id="bd87387d-9108-4ad5-a318-88d51afd48d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e43be766-8853-46a9-8b5e-c3932221e369">
+                    <propertyInstance
+                      Id="a50dcd5f-8ad3-4aff-a135-fd5d44ef0e88"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="6a32963a-1304-441e-97fe-2413b3717955"
+            name="GetMenuChoice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c7339a71-88b7-4aae-beea-54c1e09fbc68"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu Member%3DGetMenuChoice"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c22ab3b9-88bf-416c-9ebe-e3452b763107"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05dc0e17-b238-4333-9bb2-ff407114de9a">
+                    <propertyInstance
+                      Id="4f2f5197-5f52-41ee-a8ef-3dba1df019be"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="807e359f-900b-4d01-bf1a-ad80d0875883">
+                    <propertyInstance
+                      Id="3c14f489-2f27-4349-a4c1-45818f0ae0c0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b812eff4-ab53-4e9e-83ce-8e562ba6f10e">
+                    <propertyInstance
+                      Id="ef09b31c-a11a-47e3-8918-2de10ad72821"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1dba10e-2f02-4330-aa40-dc9170d6b4b4">
+                    <propertyInstance
+                      Id="6d0dbe58-32d6-4ab0-a9c4-0c38fd916148"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce65a82f-48e1-449c-a6f4-9597f750c925">
+                    <propertyInstance
+                      Id="a0aa332a-39db-4d7c-9fee-d1c31b6351d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ad494e0-eddb-4928-9e25-ae86adae4f43">
+                    <propertyInstance
+                      Id="d83e3b75-17ae-47d6-98ca-bcb4b7d7f112"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56bea64f-f5bb-4a64-a3c6-50d8e4b57279"
+                  direction="Return">
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="519a0f32-0c8e-4777-8358-607f492c8894"
+                      LastKnownName="MenuChoices"
+                      LastKnownLocation="Package3_1412.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="946acc19-ff9e-4df5-967c-d36a1dc00ffb"
+            name="GetStringInput"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="71e9bbb9-168c-49e0-8323-f81009add53b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu Member%3DGetStringInput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e836b1d-97a0-4465-82ca-8dd26f10f9a0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="babd704b-8079-42ba-bb41-106fb2f73b33">
+                    <propertyInstance
+                      Id="26cebe6f-0c16-40df-83ac-d89fca1d4225"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1296b1cb-8bf3-4403-ab65-64f95bbb64f5">
+                    <propertyInstance
+                      Id="1605f43f-4145-4a83-9f1d-16b8a33cdab5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4f595f2-e9a5-40c8-8d27-1df2646770bf">
+                    <propertyInstance
+                      Id="73e9062b-8f00-420d-a22a-26efa607b2ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2035ef52-b185-46d6-b821-882910e8f2ab">
+                    <propertyInstance
+                      Id="d5e8e92e-8418-4dbb-bf16-5a3debe318c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0794006d-bce5-4df8-b78b-6b362ab1477e">
+                    <propertyInstance
+                      Id="33f73182-374a-459f-8919-c33141984a22"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05c7926f-ee4c-407e-8de4-19d101a0be64">
+                    <propertyInstance
+                      Id="63a5e5b7-fb0f-4495-b284-7afab04fe395"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a13eed6f-8c44-4c0b-b886-f8e5516c6c49"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="BatklubbsregisterUMLDiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2e376103-3904-4958-968c-2f5b39377d23"
+            name="ListMembers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7d493e27-b7c8-44b8-aad4-d95eb147f8c8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu Member%3DListMembers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62dc84db-6a1e-490e-8172-59e47e31fd86"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e892876-ed6c-4834-bdc9-d85d5b102a4a">
+                    <propertyInstance
+                      Id="1142578d-cfb1-4404-9489-1234fe26c24e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5184a6e1-67d6-4bb6-b19b-0f7dd11bae41">
+                    <propertyInstance
+                      Id="3424cd54-9b23-45d4-8514-3620d58228aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8140b1ea-bc69-45ef-a942-c2d93cad18b8">
+                    <propertyInstance
+                      Id="500f8ee6-eae2-4db5-b021-9fd13cb5e61d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44a6f766-1fb9-43f8-badf-390280d056ff">
+                    <propertyInstance
+                      Id="83abd9e1-d123-4a6e-99eb-1051191b0680"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb9bd95f-7668-44f0-8ad5-a0502e3df766">
+                    <propertyInstance
+                      Id="a01b02ec-ff1f-44b2-9856-5fb55be271b7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a5fe051-8d19-4185-bd8c-b6f5e2d70ed2">
+                    <propertyInstance
+                      Id="a56d1eff-306a-4ebd-97b0-9d40b770ae2c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3d1ec96d-349d-4ec6-91ab-e57b3dc5d814"
+            name="Menu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="59c306e7-742e-415b-8c68-b32335d3d7d9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenu Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f62f3e9-8b8b-4a7e-9804-09d2c6484688"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0f6a42c-4f90-4e9f-9c37-b3b07a43aaa7">
+                    <propertyInstance
+                      Id="e6d5774d-7c28-4ed8-8a0f-5cbfcbc10c62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42760661-ac94-46bd-b444-cbf41b735f39">
+                    <propertyInstance
+                      Id="0ab24fb3-2f6c-437c-a4f8-2340b87a0010"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c57c11ae-12ac-4b00-9926-c3e296c17d58">
+                    <propertyInstance
+                      Id="e9507e9e-7c1b-4ba5-b1c4-7ee42ec69eed"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57e79928-cfd8-4354-b688-94c34bfd1d16">
+                    <propertyInstance
+                      Id="d30821e0-db8a-4f15-8737-c38a74fcd8d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f920b470-0032-47f8-8863-0d1a0b3c10d5">
+                    <propertyInstance
+                      Id="76ff3f27-c69f-431a-b77d-4646130224da"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19911d68-0484-456f-8666-ccde2861467b">
+                    <propertyInstance
+                      Id="5d08f54d-4cce-4243-8401-b236d24c5395"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="519a0f32-0c8e-4777-8358-607f492c8894"
+        name="MenuChoices"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4835b568-c583-4749-8571-b5b1e524f09b"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2af7d2de-2fe9-4013-ad5d-1627efb4702b"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17075d21-64c9-4202-a9e8-404d13ba819c">
+                <propertyInstance
+                  Id="e45c46e3-a1f3-410f-992f-aa4ff93addd2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a618e485-cf9b-4482-b3f7-60ac2f8b9135">
+                <propertyInstance
+                  Id="fa7c04cc-2976-47cb-9744-3d0bf2f0adbf"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9327c79-1964-4d06-bb1f-cc68da05c5ee">
+                <propertyInstance
+                  Id="b2a1012a-631d-4b97-9b2d-ac1b51099a9a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="b6d05833-ec6c-4dda-80dc-77a311245487"
+            name="Add">
+            <referencesInternal>
+              <reference
+                Id="bfe940d9-2a95-416a-9e8d-a0db997f1d49"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DAdd"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="a0c654e8-3c7c-421a-a165-722b2cedce17"
+            name="AddBoat">
+            <referencesInternal>
+              <reference
+                Id="a23844bd-f3ee-476c-b5f3-35fca7a7c7ca"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DAddBoat"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="a5270563-de95-451e-abb5-9894b0e29c6f"
+            name="CompactList">
+            <referencesInternal>
+              <reference
+                Id="9013f96e-f999-4d78-ba3d-7772f5502713"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DCompactList"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="0463b4a2-f27f-45e9-90d0-18674978e5e2"
+            name="Count">
+            <referencesInternal>
+              <reference
+                Id="753f2f43-909e-4593-95a2-abc38d6b7dd4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DCount"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="f0fe0a82-2c1b-4a57-b5e0-5164be97ea36"
+            name="DetailedList">
+            <referencesInternal>
+              <reference
+                Id="d3981b95-7995-4b94-a5e1-3885562acffc"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DDetailedList"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="19591931-1e2e-40cb-ba86-2c04d23e1507"
+            name="Edit">
+            <referencesInternal>
+              <reference
+                Id="ee694bb3-4da7-46a6-bf36-9393f5bc640b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DEdit"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="21ada078-9b9f-4cca-a1f2-fd974c897d1d"
+            name="EditBoat">
+            <referencesInternal>
+              <reference
+                Id="3af8ae93-fd2a-4ba9-8a88-b32659df7fce"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DEditBoat"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="b7f5cf81-f30e-4bed-98ed-79a1d53467f0"
+            name="Remove">
+            <referencesInternal>
+              <reference
+                Id="e74ffdbd-deb1-43d2-9e7f-404643c7544d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DRemove"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="91f45176-8965-4a49-99d2-8471c65a5146"
+            name="RemoveBoat">
+            <referencesInternal>
+              <reference
+                Id="aa9f3f11-3126-4c43-9a3c-0a93093aca53"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DRemoveBoat"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="c94ec306-3bd2-453b-95e6-4fd6063d664c"
+            name="ShowMember">
+            <referencesInternal>
+              <reference
+                Id="6fb165d6-e3e8-4480-a33e-416d62722eac"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVanilla%2FDocuments%2FVisual Studio 2012%2FProjects%2FBatklubbregisterWorkshop2%2FBatklubbregisterWorkshop2%2Fbin%2FDebug%2FBatklubbregisterWorkshop2.exe&quot; Namespace%3DBatklubbregisterWorkshop2.View Type%3DMenuChoices Member%3DShowMember"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

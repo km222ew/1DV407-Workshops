@@ -1,0 +1,32 @@
+title Remove boat
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": RemoveBoat()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": memberList
+"Controller::MemberHandler"->+"View::MemberView": ShowCompactMemberList(memberList)
+
+"View::MemberView"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("member", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+"Controller::MemberHandler"->+"Model::MemberList": GetSpecificMember(index)
+"Model::MemberList"-->-"Controller::MemberHandler": member
+"Controller::MemberHandler"->+"View::MemberView": ShowSpecificMember(name, personalNumber, uniqueID, boatList)
+"View::MemberView"->+"View::MemberView": ShowBoats(boats)
+"View::MemberView"-->-"View::MemberView":
+"View::MemberView"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("boat", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+"Controller::MemberHandler"->+"Model::Member": RemoveBoat(index)
+"Model::Member"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"->+"Model::MemberList": SaveToFile()
+"Model::MemberList"->+"Model::MemberDAL": SaveRegister(memberList)
+
+"Model::MemberDAL"-->-"Model::MemberList":
+"Model::MemberList"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

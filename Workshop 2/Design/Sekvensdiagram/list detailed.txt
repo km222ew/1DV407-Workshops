@@ -1,0 +1,19 @@
+title List detailed
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": ShowDetailedMemberList()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": memberList
+"Controller::MemberHandler"->+"View::MemberView": ShowDetailedMemberList(memberList)
+
+loop for every member
+"View::MemberView"->+"View::MemberView": ShowBoats(boatList)
+end
+
+"View::MemberView"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"->+"Controller::MemberHandler": ContinueOnKeyPressed()
+
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

@@ -1,0 +1,30 @@
+title Edit member
+
+#To see what happens before this, look at 
+#"Application Start".
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": Edit()
+
+"Controller::MemberHandler"->+"Model::MemberList": GetMemberList()
+"Model::MemberList"-->-"Controller::MemberHandler": memberList
+
+"Controller::MemberHandler"->+"View::MemberView": ShowDetailedMemberList(memberList)
+"View::MemberView"-->-"Controller::MemberHandler": 
+
+"Controller::MemberHandler"->+"View::MemberView": GetUserInput("member", count)
+"View::MemberView"-->-"Controller::MemberHandler": index
+
+"Controller::MemberHandler"->+"View::MemberView": GetMemberInfo()
+"View::MemberView"-->-"Controller::MemberHandler": editedMember
+
+"Controller::MemberHandler"->+"Model::MemberList": EditMember(index, editedMember)
+"Model::MemberList"-->-"Controller::MemberHandler": 
+
+"Controller::MemberHandler"->+"Model::MemberList": SaveToFile()
+"Model::MemberList"->+"Model::MemberDAL": SaveRegister(memberList)
+
+"Model::MemberDAL"-->-"Model::MemberList":
+
+"Model::MemberList"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":

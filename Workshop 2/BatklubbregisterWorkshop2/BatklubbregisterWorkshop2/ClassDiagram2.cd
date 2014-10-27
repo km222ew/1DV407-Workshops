@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BatklubbregisterWorkshop2.Controller.RegisterHandler">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>Controller\RegisterHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Model.Boat">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAEAABAAAAAABAAAAAAAABEAAAAA=</HashCode>
+      <FileName>Model\Boat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Model.Member">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAIAAAQAAAAAAAFAAAAAAAAEIAAAQAAgQAAABAA=</HashCode>
+      <FileName>Model\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Program">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.View.Menu">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>View\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Controller.MemberHandler">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAgAAABAEABAAAAEAAAAACAAAgAAAAEAI=</HashCode>
+      <FileName>Controller\MemberHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Model.MemberDAL">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\MemberDAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.Model.MemberList">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAgBAAAFAAAAIAQAAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\MemberList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatklubbregisterWorkshop2.View.MemberView">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAABIAAAAAgAAABAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>View\MemberView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BatklubbregisterWorkshop2.View.MenuChoices" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAEABAQBAAAAAABCAAAhAAAAAAA=</HashCode>
+      <FileName>View\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,9 @@
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Release\BatklubbregisterWorkshop2.exe.config
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Release\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Release\BatklubbregisterWorkshop2.pdb
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Release\BatklubbregisterWorkshop2.csprojResolveAssemblyReference.cache
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Release\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Release\BatklubbregisterWorkshop2.pdb
+C:\Users\Hakurei\Documents\GitHub\1DV407\1DV407-workshop\Workshop 2\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Release\BatklubbregisterWorkshop2.exe.config
+C:\Users\Hakurei\Documents\GitHub\1DV407\1DV407-workshop\Workshop 2\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Release\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\1DV407-workshop\Workshop 2\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Release\BatklubbregisterWorkshop2.pdb

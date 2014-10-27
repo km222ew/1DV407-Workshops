@@ -1,0 +1,33 @@
+title Application start
+
+"Program"->+"View::Menu": create
+"View::Menu"-->-"Program": 
+
+"Program"->+"Controller::RegisterHandler": create
+
+"Controller::RegisterHandler"->+"Controller::MemberHandler": create
+"Controller::MemberHandler"->+"Model::MemberList": create
+"Model::MemberList"->+"Model::MemberDAL": create
+"Model::MemberDAL"-->-"Model::MemberList":
+"Model::MemberList"->+"Model::MemberDAL": LoadRegister()
+"Model::MemberDAL"-->-"Model::MemberList": memberRegister
+"Model::MemberList"-->-"Controller::MemberHandler":
+
+"Controller::MemberHandler"->+"View::MemberView": create
+"View::MemberView"-->-"Controller::MemberHandler":
+"Controller::MemberHandler"-->-"Controller::RegisterHandler":
+
+"Controller::RegisterHandler"-->-"Program":
+
+"Program"->"Controller::RegisterHandler": Run()
+"Controller::RegisterHandler"->+"Controller::RegisterHandler": HandleMenu()
+"Controller::RegisterHandler"->+"View::Menu": DisplayMenu()
+"View::Menu"-->-"Controller::RegisterHandler":
+"Controller::RegisterHandler"->+"View::Menu": GetMenuChoice()
+"View::Menu"-->-"Controller::RegisterHandler": menuChoice
+"Controller::RegisterHandler"-->-"Controller::RegisterHandler":
+
+note left of "Controller::RegisterHandler"
+Menuchoice determines next 
+diagram.
+end note

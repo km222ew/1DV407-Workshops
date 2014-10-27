@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="99ec1fd7-c052-4c6e-8285-5d527f842048"
+  name="controller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e5603622-9dba-4ed1-973b-9faf82ed3260"
+        name="PlayGame"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="b5d8353e-f166-4a59-adbd-fdb57e65f33c">
+            <interfaceMoniker
+              Id="f6482840-b654-4ce1-b122-6cf09e8e75b6"
+              LastKnownName="ICardListener"
+              LastKnownLocation="Package2_1650.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="310cb7c7-dd0e-4ed7-aa2b-cb77bce979a3">
+            <interfaceMoniker
+              Id="7f8084b0-09b5-4d2a-9aa7-93f3edc99694"
+              LastKnownName="IView"
+              LastKnownLocation="Package1_1650.uml" />
+          </dependency>
+          <dependency
+            Id="a9f037c0-db33-461a-bb6d-e5619326ffec">
+            <classMoniker
+              Id="dda4fcea-833e-4c38-8c31-43b2bb6abb61"
+              LastKnownName="Game"
+              LastKnownLocation="Package2_1650.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1a1597dd-fca6-4d9c-ac4d-44eea11b4bb9"
+            name="CardListener"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

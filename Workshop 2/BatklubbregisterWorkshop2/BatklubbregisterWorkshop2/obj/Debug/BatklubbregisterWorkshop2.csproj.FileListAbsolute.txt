@@ -1,0 +1,19 @@
+P:\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe.config
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe.config
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.pdb
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.csprojResolveAssemblyReference.cache
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\src\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.pdb
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe.config
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.pdb
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.pdb
+C:\Users\Vanilla\Documents\Visual Studio 2012\Projects\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.csprojResolveAssemblyReference.cache
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe.config
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.pdb
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\obj\Debug\BatklubbregisterWorkshop2.csprojResolveAssemblyReference.cache
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.exe
+C:\Users\Hakurei\Documents\GitHub\1DV407\BatklubbregisterWorkshop2\BatklubbregisterWorkshop2\bin\Debug\BatklubbregisterWorkshop2.pdb
