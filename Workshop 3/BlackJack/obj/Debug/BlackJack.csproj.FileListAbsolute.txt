@@ -8,3 +8,5 @@ C:\Users\Vanilla\Desktop\BlackJack\obj\Debug\BlackJack.pdb
 C:\Users\Vanilla\Desktop\BlackJack\bin\Debug\BlackJack.exe
 C:\Users\Vanilla\Desktop\BlackJack\bin\Debug\BlackJack.pdb
 C:\Users\Vanilla\Desktop\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Vanilla\Documents\GitHub\1DV407-Workshops\Workshop 3\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Vanilla\Documents\GitHub\1DV407-Workshops\Workshop 3\BlackJack\obj\Debug\BlackJack.pdb

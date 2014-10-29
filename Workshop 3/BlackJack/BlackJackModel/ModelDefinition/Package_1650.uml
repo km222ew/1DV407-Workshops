@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="99ec1fd7-c052-4c6e-8285-5d527f842048"
   name="controller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -19,21 +19,87 @@
               LastKnownName="ICardListener"
               LastKnownLocation="Package2_1650.uml" />
           </interfaceRealization>
-          <dependency
-            Id="310cb7c7-dd0e-4ed7-aa2b-cb77bce979a3">
-            <interfaceMoniker
-              Id="7f8084b0-09b5-4d2a-9aa7-93f3edc99694"
-              LastKnownName="IView"
-              LastKnownLocation="Package1_1650.uml" />
-          </dependency>
-          <dependency
-            Id="a9f037c0-db33-461a-bb6d-e5619326ffec">
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="c4bfdca9-9166-482d-a1e8-1871895d1f1d"
+            isDerived="false"
+            sourceEndRoleName="PlayGame"
+            targetEndRoleName="Game"
+            isLeaf="false"
+            isAbstract="false">
             <classMoniker
               Id="dda4fcea-833e-4c38-8c31-43b2bb6abb61"
               LastKnownName="Game"
               LastKnownLocation="Package2_1650.uml" />
-          </dependency>
-        </suppliersInternal>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2cf697f1-9332-4837-86d3-856f0b04006e"
+                  name="PlayGame"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="48cca63d-4f07-433b-9c38-6db9393ef111"
+                  name="Game"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="582ac06e-c5ef-4f9c-91ac-986b1d9a4755"
+            isDerived="false"
+            sourceEndRoleName="PlayGame"
+            targetEndRoleName="IView"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="7f8084b0-09b5-4d2a-9aa7-93f3edc99694"
+              LastKnownName="IView"
+              LastKnownLocation="Package1_1650.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7bc55859-cdc3-4305-b25b-0af10a77af73"
+                  name="PlayGame"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21fd8b63-c4c5-4df7-b9a5-214b62fdcd16"
+                  name="IView"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedOperationsInternal>
           <operation
             Id="1a1597dd-fca6-4d9c-ac4d-44eea11b4bb9"

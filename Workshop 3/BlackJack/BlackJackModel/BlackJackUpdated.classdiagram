@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="1fe0c131-7d69-4d5e-b5ea-8a4ba7d87203" name="BlackJackUpdated" linkedPackageId="5e33719b-4308-4280-874c-3d3c1f109298" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="085cc592-cf8e-440b-ab21-072713f8c170">
-      <profileInstance Id="3b5db19f-3a8a-4e8c-863a-2ceaec3f34b3" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="217a25ea-5a9b-47e5-b29e-ce34d3069a63">
-      <profileInstance Id="2ec70052-730a-44b3-b300-05049f52a49b" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="147e039e-14c2-45dd-b3f5-8bbcf4c8d47e">
-      <profileInstance Id="ab4929b1-a46b-490b-b205-d6d3fd92c834" name="CSharpProfile">
-        <elementDefinition Id="356bd570-f86a-432d-b601-7fc56ef55af6" />
-      </profileInstance>
-      <elementDefinition Id="5b0f23fe-f467-4210-a939-b2b3cbacd16f" />
-    </packageHasProfileInstances>
-  </profileInstances>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1fe0c131-7d69-4d5e-b5ea-8a4ba7d87203" name="BlackJackUpdated" linkedPackageId="5e33719b-4308-4280-874c-3d3c1f109298" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <logicalClassDesignerModelHasPackages>
       <package Id="21ca033e-0a6d-447c-97e8-3de596d04ce8" name="controller">
@@ -29,19 +9,45 @@
             <class Id="64c61773-3794-49d7-a37f-4449af9c1e47" name="PlayGame" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="e5603622-9dba-4ed1-973b-9faf82ed3260" />
               <suppliersInternal>
-                <dependency Id="9d92a31e-786c-4122-ad5b-3901a3cce299">
-                  <interfaceMoniker Id="a11ef306-af0f-4bd6-b596-a62086cd03f2" LastKnownName="IView" />
-                  <elementDefinition Id="310cb7c7-dd0e-4ed7-aa2b-cb77bce979a3" />
-                </dependency>
-                <dependency Id="72bf8fd1-0ffb-4bb9-bc3c-de4e8b5fb4fa">
-                  <classMoniker Id="dd1b0d6d-e29f-4509-8aae-d45e5a09c80d" LastKnownName="Game" />
-                  <elementDefinition Id="a9f037c0-db33-461a-bb6d-e5619326ffec" />
-                </dependency>
                 <interfaceRealization Id="29b62c88-a5f8-42cc-862a-fec372fb53c8">
                   <interfaceMoniker Id="899d05ad-4349-4d29-9910-1646b76557f0" LastKnownName="ICardListener" />
                   <elementDefinition Id="b5d8353e-f166-4a59-adbd-fdb57e65f33c" />
                 </interfaceRealization>
               </suppliersInternal>
+              <targetEnds>
+                <association Id="969657ce-f1d1-4370-9962-a62db8e063a3" isDerived="false" sourceEndRoleName="PlayGame" targetEndRoleName="Game" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="dd1b0d6d-e29f-4509-8aae-d45e5a09c80d" LastKnownName="Game" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="82c10348-afe4-4421-8166-f2b60cf8f250" name="PlayGame" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="2cf697f1-9332-4837-86d3-856f0b04006e" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="ea20a935-b060-4fc1-86d6-ec9f1b33c644" name="Game" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="48cca63d-4f07-433b-9c38-6db9393ef111" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="c4bfdca9-9166-482d-a1e8-1871895d1f1d" />
+                </association>
+                <association Id="51bc6c6a-c49c-4dd1-8a47-8381b2365b08" isDerived="false" sourceEndRoleName="PlayGame" targetEndRoleName="IView" isLeaf="false" isAbstract="false">
+                  <interfaceMoniker Id="a11ef306-af0f-4bd6-b596-a62086cd03f2" LastKnownName="IView" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="42d617b8-83c6-4dfa-90f4-048859159938" name="PlayGame" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="7bc55859-cdc3-4305-b25b-0af10a77af73" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="8ffacbf2-a996-4eac-9d0a-69928b73a128" name="IView" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="21fd8b63-c4c5-4df7-b9a5-214b62fdcd16" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="582ac06e-c5ef-4f9c-91ac-986b1d9a4755" />
+                </association>
+              </targetEnds>
               <ownedOperationsInternal>
                 <operation Id="5ef112ec-1ee6-4bae-af64-eb05305a5525" name="CardListener" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <elementDefinition Id="1a1597dd-fca6-4d9c-ac4d-44eea11b4bb9" />
@@ -1364,5 +1370,25 @@
   </packagedElements>
   <package Id="5e33719b-4308-4280-874c-3d3c1f109298" name="BlackJackModel">
     <elementDefinition Id="46f1f7dc-7d54-44d9-b2ed-cc4ff28044bd" />
+    <profileInstances>
+      <packageHasProfileInstances Id="085cc592-cf8e-440b-ab21-072713f8c170">
+        <profileInstance Id="3b5db19f-3a8a-4e8c-863a-2ceaec3f34b3" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="217a25ea-5a9b-47e5-b29e-ce34d3069a63">
+        <profileInstance Id="2ec70052-730a-44b3-b300-05049f52a49b" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="147e039e-14c2-45dd-b3f5-8bbcf4c8d47e">
+        <profileInstance Id="ab4929b1-a46b-490b-b205-d6d3fd92c834" name="CSharpProfile">
+          <elementDefinition Id="356bd570-f86a-432d-b601-7fc56ef55af6" />
+        </profileInstance>
+        <elementDefinition Id="5b0f23fe-f467-4210-a939-b2b3cbacd16f" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
